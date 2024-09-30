@@ -1,0 +1,20 @@
+/* 
+Name - Harsh Dixit
+RollNo - 86691
+KD1-86691-HARSH */
+
+/* Accessing Class */
+.A
+{
+    background-color: rgb(234, 215, 246);
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 12px; 
+}
+
+/* Accessing Id */
+#btn
+{
+    padding: 5px;
+    background-color: rgb(196, 255, 196);
+}
