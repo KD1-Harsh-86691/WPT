@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Racing Car</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+            height: 180px; 
+            width: 200px; 
+            position: absolute;
+        }
+
+        .highwayRoad{
+            border: 2px solid black; 
+            width: 40%; 
+            top: 160px; 
+            position:absolute;
+        }
+
+    </style>
+</head>
+
+<body>
+<section>
+
+    <img id="myImage" src="image.png" ;>
+    
+    <div class="highwayRoad"></div>
+    
+</section>
+
+<section>
+
+    X axis : <input type="text" id="x-axis" style="margin-top: 200px;">
+    <br><br>
+    
+    Y axis : <input type="text" id="y-axis">
+    <br><br>
+    
+    <input type="button" value="Start" onclick="Start()" />
+    <input type="button" value="Stop" onclick="Stop()" />
+    <br />
+</section>
+
+
+
+</body>
+
+</html>
